@@ -57,7 +57,7 @@ const Pokemon = () => {
                 addPokemon();
               }}
               variant="contained"
-              color="success"
+              color="info"
             >
               Add
             </Button>
@@ -74,7 +74,8 @@ const Pokemon = () => {
               onClick={() => {
                 clearPokemons();
               }}
-              color="secondary"
+              color="error"
+              variant="contained"
             >
               Clear
             </Button>
